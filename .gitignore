@@ -1,0 +1,18 @@
+*.pyc
+*.log
+*.sqlite3
+
+# IDE
+/.idea
+
+# project
+/.virtualenv*
+
+# me
+/exos_test/settings/local*
+
+# coverage data
+.coverage
+
+# pytest
+.cache

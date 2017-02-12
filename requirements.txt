@@ -1,0 +1,4 @@
+django==1.9
+
+# dev
+flake8==3.2.1

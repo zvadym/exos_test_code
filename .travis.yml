@@ -1,0 +1,6 @@
+language: python
+python: "3.5"
+install: pip install -r requirements.txt
+script:
+ - flake8 --exclude migrations,.virtualenv --ignore=E128,E731,F405 --max-line-length=120 .
+ - python manage.py test
