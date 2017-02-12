@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zvadym/exos_test_code.svg?branch=master)](https://travis-ci.org/zvadym/exos_test_code)
+
 ## Python Code Task
 
 **Estimated development:**
