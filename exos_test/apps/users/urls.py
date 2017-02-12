@@ -8,4 +8,6 @@ urlpatterns = [
     url(r'^update/(?P<pk>\d+)/$', views.UserUpdateView.as_view(), name='users_update'),
     url(r'^delete/(?P<pk>\d+)/$', views.UserDeleteView.as_view(), name='users_delete'),
     url(r'^detail/(?P<pk>\d+)/$', views.UserDetailView.as_view(), name='users_detail'),
+
+    url(r'^download/$', views.download_csv, name='users_download'),
 ]
